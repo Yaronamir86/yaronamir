@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="radial" cx="70%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#f0a500;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#f0a500;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0a0b0f"/>
+  <rect width="1200" height="630" fill="url(#radial)"/>
+
+  <!-- Grid -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Border -->
+  <rect x="40" y="40" width="1120" height="550" rx="20" fill="none" stroke="rgba(240,165,0,0.15)" stroke-width="1.5"/>
+  <rect x="40" y="40" width="1120" height="4" rx="2" fill="#f0a500" opacity="0.7"/>
+
+  <!-- Watermark letters left side -->
+  <text x="220" y="480" font-family="'Helvetica Neue', Arial, sans-serif" font-size="260" font-weight="900"
+        fill="rgba(240,165,0,0.04)" text-anchor="middle" letter-spacing="-8">YA</text>
+
+  <!-- Logo — top right -->
+  <rect x="1040" y="80" width="80" height="80" rx="18" fill="#f0a500"/>
+  <text x="1080" y="137" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="900"
+        fill="#0a0b0f" text-anchor="middle" letter-spacing="-1">YA</text>
+
+  <!-- Name + title — right aligned, next to logo -->
+  <text x="1020" y="114" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="800"
+        fill="#f0efe8" text-anchor="end">ירון אמיר</text>
+  <text x="1020" y="146" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600"
+        fill="#f0a500" text-anchor="end" letter-spacing="1">שמאי רכוש מוסמך</text>
+
+  <!-- Divider -->
+  <line x1="80" y1="200" x2="1120" y2="200" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+  <!-- Headline line 1 — right aligned -->
+  <text x="1120" y="295" font-family="'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="900"
+        fill="#f0efe8" text-anchor="end">נזק בבית?</text>
+
+  <!-- Headline line 2 — split into segments, right aligned, gold middle word -->
+  <text x="1120" y="375" font-family="'Helvetica Neue', Arial, sans-serif" font-size="60" font-weight="900"
+        fill="#f0efe8" text-anchor="end">מול הביטוח. <tspan fill="#f0a500">בצד שלך</tspan> אני</text>
+
+  <!-- Gold underline -->
+  <rect x="628" y="383" width="290" height="3" rx="1.5" fill="#f0a500" opacity="0.45"/>
+
+  <!-- Sub — right aligned -->
+  <text x="1120" y="442" font-family="'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="400"
+        fill="#8a8f9e" text-anchor="end">15 שנות ניסיון · כל הארץ · שיחה ראשונה בחינם</text>
+
+  <!-- CTA — right side -->
+  <rect x="880" y="468" width="240" height="54" rx="12" fill="#f0a500"/>
+  <text x="1000" y="503" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="800"
+        fill="#0a0b0f" text-anchor="middle">050-3292066 📞</text>
+</svg>
